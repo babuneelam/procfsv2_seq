@@ -100,6 +100,7 @@ static void *proc_test_config_start(struct seq_file *m, loff_t * pos)
                 /* no => it's the end of the sequence, return end to stop reading */
 //printk("seq_start invoked at end of sequence \r\n");
                 *pos = 0;
+                cur_array_num=1;
                 return NULL;
         }
 }
