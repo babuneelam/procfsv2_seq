@@ -1,0 +1,67 @@
+Following is the sequence that details the execution flow of this kernel module when read is performed on the confg file:
+==========================================================================================================================
+
+[108497.201280] /proc/test/config created
+
+[108512.160705] seq_start invoked at beg of first sequence 
+
+[108512.160712] seq_show invoked in sequence 1 
+
+[108512.160714] seq_show invoked in first sequence 
+
+[108512.160717] seq_next invoked in first sequence 
+
+[108512.160719] seq_stop invoked in first sequence 
+
+[108512.160945] 
+
+[108512.160945] 
+
+[108512.160945] seq_start invoked at beg of second sequence 
+
+[108512.160949] seq_show invoked in sequence 2 
+
+[108512.160952] seq_show invoked in second sequence 
+
+[108512.160954] seq_next invoked in second sequence, entry num = 0 
+
+[108512.160956] seq_show invoked in sequence 2 
+
+[108512.160959] seq_show invoked in second sequence 
+
+[108512.160961] seq_next invoked in second sequence, entry num = 1 
+
+[108512.160963] seq_show invoked in sequence 2 
+
+[108512.160966] seq_show invoked in second sequence 
+
+[108512.160968] seq_next invoked in second sequence, entry num = 2 
+
+[108512.160971] seq_show invoked in sequence 2 
+
+[108512.160973] seq_show invoked in second sequence 
+
+[108512.160975] seq_next invoked in second sequence, entry num = 3 
+
+[108512.160977] seq_show invoked in sequence 2 
+
+[108512.160979] seq_show invoked in second sequence 
+
+[108512.160982] seq_next invoked in second sequence, entry num = 4 
+
+[108512.160984] seq_show invoked in sequence 2 
+
+[108512.160986] seq_show invoked in second sequence 
+
+[108512.160989] seq_next invoked in second sequence, entry num = 5 
+
+[108512.160991] seq_show invoked in sequence 2 
+
+[108512.160993] seq_show invoked in second sequence 
+
+[108512.160995] seq_next invoked in second sequence, entry num = 6 
+
+[108512.160998] seq_stop invoked in second sequence
+seq_start invoked at end of sequence 
+
+
